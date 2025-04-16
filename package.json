@@ -1,5 +1,5 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "affinity-spark",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
